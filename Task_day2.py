@@ -14,8 +14,9 @@ print(str[7:10])  # 123
 
 
 #3. clean the string(remove space)
-string="Python if fun"
+string="Python is fun"
 cleaned=string.replace(" ","")
+#cleaned = string.strip()
 print(cleaned)
 
 
@@ -111,4 +112,5 @@ number=int(input("Enter a number: "))
 if(number%7==0):
     print("Multiple of 7")
 else:
+
     print("not multiple of 7")              
