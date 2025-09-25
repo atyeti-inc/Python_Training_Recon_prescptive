@@ -28,20 +28,20 @@ print(f'"{Str2}"')
 
 #Q4:Check Methods:
 #"12345"
-C1="12345"
+C1="12345" #returns true
 print(C1.isalnum())
 print(C1.isnumeric())
 print(C1.isdigit())
-C2="123 1/3"
+C2="123 1/3" #returns false
 print(C2.isalnum())
 print(C2.isnumeric())
 print(C2.isdigit())
 C3="Python3"
-print(C3.isalnum())
+print(C3.isalnum()) #returns true
 print(C3.isnumeric())
 print(C3.isdigit())
 C4="Python 3"
-print(C3.isalnum())
+print(C3.isalnum()) #returns true
 print(C3.isnumeric())
 print(C3.isdigit())
 
@@ -97,4 +97,5 @@ Number=int(input("Enter the Number:"))
 if(Number%7==0):
     print("Number is divisible by 7")
 else:
+
     print("Number is not divisible by 7")
