@@ -99,3 +99,4 @@ if(Number%7==0):
 else:
 
     print("Number is not divisible by 7")
+
