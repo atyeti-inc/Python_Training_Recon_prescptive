@@ -13,15 +13,15 @@ print ("The Area of Square is:",Area)
 
 #Write a Program to input 2 floating point numbers & print their average.
 
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+num1 = float(input("first number: "))
+num2 = float(input("second number: "))
 avgerage = (num1+num2)/2
-print("The average of two numbers is",avgerage)
+print("average of two numbers is",avgerage)
 
 #Write a Program to input 2 int numbers, a and b.Print True if a is greater than or equal to b. If not print False.
 
-n1 = int(input("Enter first number 'a':"))
-n2 = int(input("Enter Second number 'b':"))
+n1 = int(input("first number 'a':"))
+n2 = int(input("Second number 'b':"))
 if n1>= n2:
    print ("True")
 else:
