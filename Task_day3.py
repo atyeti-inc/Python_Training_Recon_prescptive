@@ -132,6 +132,7 @@ for i in range(0,len(str),1):
 transactions = [200, -100, 300, -50, -200]
 expected_closing_balance = 1150
 '''
+#Using while loop:
 opening_Balance=1000
 Transactions=[200,-100,300,-50,-200]
 closing_balance=1150
@@ -158,4 +159,5 @@ for i in range (0,len(Transactions),1):
         print("Balance mismatch found")
         break
 else:
+
     print("Balance matched")
