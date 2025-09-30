@@ -141,19 +141,31 @@ print("------------------End of program 8---------------------")
 #Q.9) Opening balance = 1000, Transations: [200,-100,300,-50,-200], closing balance = 1150.Check opening + net transations = closing, if not print "Balance mismatch found and stop(break)"
 
 open=1000
+
 net=[200,-100,300,-50,-200]
 close=1150
 sum=0
-for i in net:
-    sum=sum+i
-print("Total net transations: ", sum)
-j=open+sum
-print("Opening:",open," + net: ",sum,"= closing", j)
-if(close==j):
-    print("Balance proofing done")
+i=0
+print("For loop")
+for i in range(0, len(net),1):
+    sum=sum+net[i]
+    if i==len(net)-1 and close != sum+open:
+        print("Balance mismatch found")
+        break
 else:
-    print("Actual closing was",close,"so Balance mismatch found")
-    
+    print("Balance proofing done")    
+print("While loop")
+
+sum1=0
+i1=0
+while i1<len(net):
+    sum1=sum1+net[i1]
+    i1=i1+1
+    if i1== len(net) and close != open + sum1:
+        print("Balance mismatch found")
+        break
+else:   
+    print("Balance proofing done")
 print("------------------End of program 9---------------------")
     
 
