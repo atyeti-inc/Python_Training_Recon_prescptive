@@ -5,7 +5,7 @@ print(dict)
 #Find student with highest marks from marks={"amit":85,"sneha":92,"ravi":78}
 student={"Amit":85,"sneha":92,"Ravi":78}
 highest_marks=0
-high_mark_student=""
+highest_mark_student=""
 for i in student:
     if (student[i]>highest_marks):
         highest_marks=student[i]
@@ -49,4 +49,5 @@ def Arithmetic_Ops(A,B):
     print("Product:",A*B)
     print("Quotient:",A/B)
 Arithmetic_Ops(10,2)
+
 
