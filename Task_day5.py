@@ -38,10 +38,6 @@ def greet(name,msg="Welcome!"):
 greet("hello Chandra")
 
 #Write a function sum_All(*numbers) that returns the sum of all numbers passed to it e.g:sum_all(1,2,3,4)-->10
-def sum_All(a,b,c,d):
-    print(a+b+c+d)
-sum_All(1,2,3,4)
-
 def sum_(*numbers):
     print(sum(numbers))
 sum_(10,2)
@@ -53,3 +49,4 @@ def Arithmetic_Ops(A,B):
     print("Product:",A*B)
     print("Quotient:",A/B)
 Arithmetic_Ops(10,2)
+
