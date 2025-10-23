@@ -1,0 +1,16 @@
+Transaction_ID,Trade_Date,Account,Source_Amount,Target_Amount,Currency,Status,Department
+T001,2025-10-01,ACC1001,1000,1000,USD,Matched,Equities
+T002,2025-10-01,ACC1002,2500,2500,USD,Matched,Derivatives
+T003,2025-10-01,ACC1003,3200,3000,USD,Mismatch,Fixed Income
+T004,2025-10-01,ACC1004,1500,,USD,Missing in Target,FX
+T005,2025-10-01,ACC1005,,2000,USD,Missing in Source,FX
+T006,2025-10-02,ACC1006,4500,4500,USD,Matched,Equities
+T007,2025-10-02,ACC1007,3800,3700,USD,Mismatch,Derivatives
+T008,2025-10-02,ACC1008,2200,2200,USD,Matched,Fixed Income
+T009,2025-10-02,ACC1009,4100,,USD,Missing in Target,FX
+T010,2025-10-02,ACC1010,,3800,USD,Missing in Source,Equities
+T011,2025-10-03,ACC1011,6000,6000,USD,Matched,Derivatives
+T012,2025-10-03,ACC1012,7200,7000,USD,Mismatch,Equities
+T013,2025-10-03,ACC1013,2500,2500,USD,Matched,FX
+T014,2025-10-03,ACC1014,3400,,USD,Missing in Target,Fixed Income
+T015,2025-10-03,ACC1015,,3200,USD,Missing in Source,FX
